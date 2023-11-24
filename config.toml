@@ -1,0 +1,61 @@
+# The URL the site will be built for
+base_url = "https://sudharma.github.io"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+theme = "blow"
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+enable_search = true
+enable_sidebar = true
+enable_adsense = true
+enable_multilingue = true
+adsense_link = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=myclientid"
+
+
+[extra.sidebar]
+items = [
+    { lang = "en", links = [
+        { url = "/markdown", name = "Markdown" },
+        { url = "/blog", name = "Blog" },
+    ] }
+]
+
+
+[extra.navbar]
+items = [
+    { lang = "en", links = [
+        { url = "/", name = "Home" },
+        { url = "/categories", name = "Categories" },
+        { url = "/tags", name = "Tags" },
+    ] },
+]
+title = "title"
+
+
+[extra.index]
+title = "Sudharma Puranik"
+image = "https://via.placeholder.com/200"
+image_alt = "Placeholder text describing the index's image."
+
+[extra.default_author]
+name = "Sudharma Puranik"
+avatar = "https://via.placeholder.com/200"
+avatar_alt = "Sudharma Puranik"
+
+
+[extra.social]
+github = "https://github.com/sudharma"
+twitter = "https://twitter.com/chaosguru"
+linkedin = "https://www.linkedin.com/in/sudharmapuranik/"
+stackoverflow = "https://stackoverflow.com/users/902396/chaosguru" 
+email = "sudharma.puranik@gmail.com"
