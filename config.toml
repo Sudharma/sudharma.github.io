@@ -1,6 +1,10 @@
 # The URL the site will be built for
 base_url = "https://sudharma.github.io"
 
+name = ""
+
+description = ""
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
 
@@ -24,10 +28,10 @@ highlight_themes_css = [
 ]
 
 [extra]
-enable_search = true
+enable_search = false
 enable_sidebar = false # sidebar has tags and can be enabled later
 enable_adsense = true
-enable_multilingue = true
+enable_multilingue = false
 adsense_link = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=myclientid"
 
 
@@ -44,14 +48,14 @@ items = [
     { lang = "en", links = [
         { url = "/", name = "Home" },
         { url = "/blog", name = "Blog" },
-        { url = "/archive", name = "Archive" },
+        { url = "/about", name = "About" },
     ] },
 ]
-title = "Sudharma's space"
+title = ""
 
 
 [extra.index]
-title = "Sudharma Puranik"
+title = ""
 image = "https://avatars.githubusercontent.com/u/854034?v=4"
 image_alt = ""
 
