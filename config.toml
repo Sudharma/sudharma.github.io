@@ -33,6 +33,7 @@ bio = "Software Engineer"                          # Your bio
 links = [                             # Your links
     { name = "GitHub", icon = "github", url = "https://github.com/sudharma" },
     { name = "Twitter", icon = "twitter", url = "https://twitter.com/chaosguru" },
+    { name = "Stackoverflow", icon = "stackoverflow", url = "https://stackoverflow.com/users/902396/chaosguru" },
     { name = "Email", icon = "email", url = "mailto:sudharma@fastmail.com" },
 ]
 homepage_layout = "about" 
@@ -69,5 +70,5 @@ footer_copyright = "© 2023 Sudharma"
 footer_credits = false                 # Whether to show "powered by zola and serene" in footer
 
 not_found_title = "404"
-not_found_error_text = "Not Found"
+not_found_error_text = "Lost in cyberspace abyss."
 not_found_recover_text = "« back to home »"
