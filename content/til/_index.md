@@ -1,5 +1,5 @@
 +++
-title = "My Blog"
+title = "Today I Learned"
 description = "My blog site."
 sort_by = "date"
 template = "blog.html"
