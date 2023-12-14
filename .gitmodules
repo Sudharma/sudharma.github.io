@@ -1,3 +1,10 @@
 [submodule "themes/blow"]
 	path = themes/blow
 	url = git@github.com:tchartron/blow.git
+[submodule "themes/tabi"]
+	path = themes/tabi
+	url = https://github.com/welpo/tabi.git
+[submodule "themes/serene"]
+	path = themes/serene
+	url = https://github.com/isunjn/serene.git
+	branch = latest

@@ -1,7 +1,22 @@
 +++
 title = "Custom GPT, Smarter, Faster and Still Clueless"
 date = 2023-12-03
+description = "Custom GPT, Smarter, Faster and Still Clueless"
+
+[taxonomies]
+categories = ["Tech"]
+tags = ["chatgpt", "openai", "customgpt"]
+
+[extra]
+lang = 'en'
+copy = true
+# outdate_alert = true
+# outdate_alert_days = 120
+display_tags = true
+truncate_summary = true
 +++
+
+
 
 ## Custom GPT, Smarter, Faster and Still Clueless
 
